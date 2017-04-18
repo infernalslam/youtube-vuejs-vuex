@@ -1,15 +1,18 @@
 <template lang="html">
   <div>
-    <!-- <title-create></title-create> -->
+    <title-sub></title-sub>
+    <form-view></form-view>
   </div>
 </template>
 
 <script>
-// import titleCreate from './components/header/titleCreate'
+import titleSub from './header/titleSub'
+import formView from './form/form'
 export default {
   name: 'create',
   components: {
-    // titleCreate
+    titleSub,
+    formView
   }
 }
 </script>
