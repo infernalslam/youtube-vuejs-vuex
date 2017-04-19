@@ -3,6 +3,7 @@
     <title-create></title-create>
     <album></album>
     <top-chart></top-chart>
+    <player></player>
   </div>
 </template>
 
@@ -12,6 +13,7 @@ import store from '../vuex/index.js'
 import titleCreate from './header/titleCreate'
 import Album from './content/album'
 import topChart from './topChart/topChart'
+import Player from './player/player'
 export default {
   name: 'index',
   data () {
@@ -22,7 +24,8 @@ export default {
   components: {
     titleCreate,
     Album,
-    topChart
+    topChart,
+    Player
   },
   mounted () {
     var vm = this

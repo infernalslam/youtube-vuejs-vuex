@@ -66,13 +66,15 @@
 </template>
 
 <script>
+import store from '../../vuex/index'
 export default {
   name: 'form',
   data () {
     return {
       data: {},
       tracks: [],
-      img: ''
+      img: '',
+      store
     }
   },
   methods: {
@@ -101,11 +103,14 @@ export default {
         tracks: this.tracks
       }
       console.log('upload data :::', data)
+      this.store.dispatch('uploadFirebase', data)
       this.data.artist = ''
       this.data.album = ''
       this.data.dec = ''
       this.img = ''
       this.tracks = []
+      this.data.song = ''
+      this.data.youtubeID = ''
     }
   }
 }

@@ -4,9 +4,9 @@
     <div class="container">
       <div class="nav-left">
           <router-link class="nav-item is-tab" style="color: #003;" to="/">หน้าเเรก</router-link>
-          <a class="nav-item is-tab" style="color: #003;">ฮิตติดหู</a>
-          <a class="nav-item is-tab" style="color: #003;">เพลย์ลิสต์</a>
-          <a class="nav-item is-tab" style="color: #003;">เพลงใหม่</a>
+          <!-- <a class="nav-item is-tab" style="color: #003;">ฮิตติดหู</a> -->
+          <!-- <a class="nav-item is-tab" style="color: #003;">เพลย์ลิสต์</a> -->
+          <!-- <a class="nav-item is-tab" style="color: #003;">เพลงใหม่</a> -->
           <router-link class="nav-item is-tab" style="color: #003;" to="/create">CreatePlaylist</router-link>
       </div>
     </div>

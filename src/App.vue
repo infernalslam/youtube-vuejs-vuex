@@ -3,21 +3,17 @@
     <header-side1></header-side1>
     <header-sub></header-sub>
     <router-view></router-view>
-    <br><br><br><br><br><br><br><br><br>
-    <player></player>
   </div>
 </template>
 
 <script>
 import HeaderSide1 from './components/header/header'
 import HeaderSub from './components/header/subHeader'
-import Player from './components/player/player'
 export default {
   name: 'app',
   components: {
     HeaderSide1,
-    HeaderSub,
-    Player
+    HeaderSub
   }
 }
 </script>
