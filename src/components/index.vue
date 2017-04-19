@@ -3,7 +3,8 @@
     <title-create></title-create>
     <album></album>
     <top-chart></top-chart>
-    <player></player>
+    <br><br><br>
+    <player v-show="store.state.toggle"></player>
   </div>
 </template>
 

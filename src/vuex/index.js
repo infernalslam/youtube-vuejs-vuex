@@ -16,10 +16,14 @@ db.on('child_added', function (data) {})
 
 const store = new Vuex.Store({
   state: {
-    allAlbum: []
+    allAlbum: [],
+    listPlayer: [],
+    toggle: false
   },
   getters: {
-    allAlbum: state => { return state.allAlbum }
+    allAlbum: state => { return state.allAlbum },
+    listPlayer: state => { return state.listPlayer },
+    toggle: state => { return state.toggle }
   },
   actions: {
     getApiAlbum (context, payload) {
@@ -27,6 +31,9 @@ const store = new Vuex.Store({
     },
     uploadFirebase (context, payload) {
       context.commit('uploadFirebase', payload)
+    },
+    player (context, payload) {
+      context.commit('player', payload)
     }
   },
   mutations: {
@@ -34,8 +41,11 @@ const store = new Vuex.Store({
       state.allAlbum = payload
     },
     uploadFirebase (context, payload) {
-      // db.push(data)
       db.push(payload)
+    },
+    player (state, payload) {
+      state.listPlayer.push(payload)
+      state.toggle = true
     }
   }
 })

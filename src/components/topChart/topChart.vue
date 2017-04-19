@@ -20,10 +20,12 @@
                 <p>
                   <strong>{{show.artist}} </strong>
                   <small>{{show.song}}</small>
-                  <small style="float:right;">Vote {{show.vote}}</small>
                 </p> My Voice Deluxe Album
               </div>
             </div>
+            <span class="tag is-danger" style="cursor:pointer;" @click="store.dispatch('player', show)">เล่น</span>
+            <span class="tag is-info" style="cursor:pointer;">โหวต</span>
+            <span style="font-size: 20px;">{{show.vote}}Like</span>
           </article>
 
         </div>
