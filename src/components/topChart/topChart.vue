@@ -20,7 +20,7 @@
                 <p>
                   <strong>{{show.artist}} </strong>
                   <small>{{show.song}}</small>
-                </p> My Voice Deluxe Album
+                </p> {{show.album}}
               </div>
             </div>
             <span class="tag is-danger" style="cursor:pointer;" @click="store.dispatch('player', show)">เล่น</span>

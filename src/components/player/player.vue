@@ -1,6 +1,8 @@
 <template>
 <div>
-  <youtube :video-id="store.state.listPlayer[0].youtubeID" :player-vars="{autoplay: 1}" style="display: none"></youtube>
+  <youtube :video-id="store.state.oncelist.youtubeID" :player-vars="{autoplay: 1}"
+  @ended="ended"
+  style="display: none"></youtube>
 
   <div class="player-title">
     <div class="player-title-side">คุณกำลังฟัง</div>
@@ -8,9 +10,9 @@
     <div style="padding-left: 30px; padding-top: 20px;">
       <i class="fa fa-play" aria-hidden="true"></i> &nbsp &nbsp
       <i class="fa fa-step-forward" aria-hidden="true"></i> &nbsp &nbsp
-      <i class="fa fa-window-close" aria-hidden="true"></i> &nbsp &nbsp
-      <span> {{store.state.listPlayer[0].artist}} {{store.state.listPlayer[0].song}}  - {{store.state.listPlayer[0].album}} </span>
-      <span style="color: red;">{{store.state.listPlayer[0].youtubeID}}</span>
+      <i class="fa fa-window-close" aria-hidden="true" @click="store.dispatch('closePlayer')"></i> &nbsp &nbsp
+      <span> {{store.state.oncelist.artist}} {{store.state.oncelist.song}}  - {{store.state.oncelist.album}} </span>
+      <span style="color: red;">{{store.state.youtubeID}}</span>
     </div>
   </div>
 </div>
@@ -22,7 +24,14 @@ export default {
   name: 'player',
   data () {
     return {
-      store
+      store,
+      player: ''
+    }
+  },
+  methods: {
+    ended () {
+      console.log('endddddddddddddddd')
+      this.store.dispatch('nextSong')
     }
   }
 }

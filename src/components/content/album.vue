@@ -7,11 +7,13 @@
         <div style="border-bottom: 3px solid #003;"></div>
         <br>
 
-        <div class="columns">
+        <div class="columns move" :style="'left: ' + move + 'px;'">
 
           <div class="column is-3" v-for="show in store.state.allAlbum">
             <div class="panel">
-              <p class="is-marginless"><img :src="show.img" width="300" height="300"></p>
+              <p class="is-marginless">
+                <img :src="show.img" width="300" height="300">
+              </p>
               <div class="panel-block">
                 <div class="columns">
                   <div class="column">
@@ -28,6 +30,7 @@
       </div>
     </div>
   </section>
+    <input type="range" min="-1000" max="0" v-model="move">
   </div>
 </template>
 
@@ -37,8 +40,20 @@ export default {
   name: 'album',
   data () {
     return {
-      store
+      store,
+      move: 0
+    }
+  },
+  methods: {
+    moveAlbum () {
+      this.move += -20
     }
   }
 }
 </script>
+
+<style>
+.move {
+  position: relative;
+}
+</style>

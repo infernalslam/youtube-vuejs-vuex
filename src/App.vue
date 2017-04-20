@@ -3,17 +3,24 @@
     <header-side1></header-side1>
     <header-sub></header-sub>
     <router-view></router-view>
+    <!-- <youtube :video-id="store.state.listPlayer[0].youtubeID" :player-vars="{autoplay: 1}" style="display: none"></youtube> -->
   </div>
 </template>
 
 <script>
 import HeaderSide1 from './components/header/header'
 import HeaderSub from './components/header/subHeader'
+// import store from './vuex/index'
 export default {
   name: 'app',
   components: {
     HeaderSide1,
     HeaderSub
+  },
+  data () {
+    return {
+      // store
+    }
   }
 }
 </script>
