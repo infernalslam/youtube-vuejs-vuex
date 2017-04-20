@@ -53,6 +53,7 @@ const store = new Vuex.Store({
   },
   mutations: {
     getApiAlbum (state, payload) {
+      // get api
       state.allAlbum = payload
     },
     uploadFirebase (context, payload) {
@@ -68,6 +69,23 @@ const store = new Vuex.Store({
       state.oncelist.youtubeID = payload.youtubeID
       state.oncelist.album = payload.album
       state.toggle = true
+      // repeat
+      let rank = []
+      state.allAlbum.find(item => {
+        item.tracks.map(i => {
+          let arr = {
+            id: i.id,
+            artist: i.artist,
+            album: i.album,
+            img: i.img,
+            song: i.song,
+            vote: i.vote,
+            youtubeID: i.youtubeID
+          }
+          rank.push(arr)
+        })
+      })
+      state.listPlayer = rank
     },
     closePlayer (state, payload) {
       state.toggle = false
@@ -82,17 +100,14 @@ const store = new Vuex.Store({
       }
     },
     nextSong (state) {
-      // state.listPlayer.tracks.splice(0, 1)
-      // state.listPlayer = state.allAlbum.find(i => i.artist === payload.artist)
-      let index = Math.floor(Math.random() * state.listPlayer.length)
-      console.log('index ::', index, 'data :: ', state.listPlayer[index])
-      // state.oncelist.id = state.listPlayer[index].tracks[index].id
-      // state.oncelist.artist = state.listPlayer[index].tracks[index].artist
-      // state.oncelist.img = state.listPlayer[index].tracks[index].img
-      // state.oncelist.song = state.listPlayer[index].tracks[index].song
-      // state.oncelist.vote = state.listPlayer[index].tracks[index].vote
-      // state.oncelist.youtubeID = state.listPlayer[index].tracks[index].youtubeID
-      // state.oncelist.album = state.listPlayer[index].tracks[index].album
+      state.listPlayer.splice(Math.floor(Math.random() * state.listPlayer.length) + 1, 1)
+      state.oncelist.id = state.listPlayer[0].id
+      state.oncelist.artist = state.listPlayer[0].artist
+      state.oncelist.img = state.listPlayer[0].img
+      state.oncelist.song = state.listPlayer[0].song
+      state.oncelist.vote = state.listPlayer[0].vote
+      state.oncelist.youtubeID = state.listPlayer[0].youtubeID
+      state.oncelist.album = state.listPlayer[0].album
     }
   }
 })

@@ -1,6 +1,6 @@
 <template lang="html">
   <div>
-    <title-create></title-create>
+    <!-- <title-create></title-create> -->
     <album></album>
     <top-chart></top-chart>
     <br><br><br>
