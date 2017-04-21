@@ -1,25 +1,30 @@
 <template>
   <div id="app">
-    <header-side1></header-side1>
+    <!-- <header-side1></header-side1> -->
     <header-sub></header-sub>
     <router-view></router-view>
+    <player v-show="store.state.toggle"></player>
     <!-- <youtube :video-id="store.state.listPlayer[0].youtubeID" :player-vars="{autoplay: 1}" style="display: none"></youtube> -->
+
   </div>
 </template>
 
 <script>
+import store from './vuex/index.js'
 import HeaderSide1 from './components/header/header'
 import HeaderSub from './components/header/subHeader'
+import Player from './components/player/player'
 // import store from './vuex/index'
 export default {
   name: 'app',
   components: {
     HeaderSide1,
-    HeaderSub
+    HeaderSub,
+    Player
   },
   data () {
     return {
-      // store
+      store
     }
   }
 }

@@ -36,7 +36,9 @@
 						<article class="thumb" v-for="show in store.state.allAlbum">
 							<a class="image">
                 <!--  size 640x640 -->
-                <img :src="show.img">
+                <!-- <router-link class="nav-item is-tab" style="color: white;" to="/create">CreatePlaylist</router-link> -->
+                <router-link to="/insideAlbum" ><img :src="show.img" @click="store.dispatch('changeBg', show)"></router-link>
+                <!-- <img :src="show.img"> -->
               </a>
 							<h2>
                 {{show.artist}} <br>

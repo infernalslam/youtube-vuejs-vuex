@@ -1,10 +1,10 @@
 <template lang="html">
   <div>
-    <!-- <title-create></title-create> -->
+    <title-create></title-create>
     <album></album>
     <top-chart></top-chart>
     <br><br><br>
-    <player v-show="store.state.toggle"></player>
+    <!-- <player v-show="store.state.toggle"></player> -->
   </div>
 </template>
 
