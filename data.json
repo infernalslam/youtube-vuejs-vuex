@@ -3,7 +3,7 @@
 		"album": "My Voice – The 1st Album Deluxe Edition",
 		"artist": "Taeyeon",
 		"dec": "ภาพสวย ดีงามตามสไตล์พี่แทมากๆ ปีแห่งการเปย์ จริงๆ ตั้งแต่ต้นปี มาเดือนนี้ยังไม่ได้หยุดเปย์กันเลย ฮาาา",
-		"img": "https://upload.wikimedia.org/wikipedia/en/6/6f/Taeyeon_My_Voice_Deluxe_edition_album_cover.jpg",
+		"img": "http://static.siamdara.com/files/images/08(128).jpg",
 		"tracks": [{
 				"album": "My Voice – The 1st Album Deluxe Edition",
 				"artist": "Taeyeon",
@@ -163,7 +163,7 @@
 		"album": "Dear  [1st Special Album]",
 		"artist": "Apink",
 		"dec": "วิธีฟัง คือ ต้องลุกขึ้นมาทำตัวดุ๊กดิ๊กตอนท่อนฮุกด้วย จะสนุกค่ะ",
-		"img": "http://dj.lnwfile.com/_/dj/_raw/o4/hp/2q.jpg",
+		"img": "https://scontent-dft4-2.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/c175.0.700.700/15538252_714378115393108_3514074398283792384_n.jpg",
 		"tracks": [{
 				"album": "Dear  [1st Special Album]",
 				"artist": "Apink",
@@ -278,7 +278,7 @@
 		"album": "Cover by Jeaniich",
 		"artist": "BAEK A YEON",
 		"dec": "[Thai ver.] BAEK A YEON - So So (쏘쏘) l Cover by Jeaniich",
-		"img": "http://images.genius.com/67d28796d9902c50d3fe9ec01a76a279.604x604x1.jpg",
+		"img": "http://100ayeon.jype.com/upload/gallery/gallery_150519183358.jpg",
 		"tracks": [{
 			"album": "Cover by Jeaniich",
 			"artist": "BAEK A YEON",
@@ -289,19 +289,439 @@
 			"youtubeID": "Ar3EaMMnNZo"
 		}]
 	},
-	"-Ki2YGPoRUUp7GaAxaqR": {
-		"album": "Cover by Jeaniich",
-		"artist": "BAEK A YEON",
-		"dec": "[Thai ver.] BAEK A YEON - So So (쏘쏘) l Cover by Jeaniich",
-		"img": "http://images.genius.com/67d28796d9902c50d3fe9ec01a76a279.604x604x1.jpg",
+	"-Ki6_zsGB7TzP6UdBhAS": {
+		"album": "Memories Do Not Open",
+		"artist": "The Chainsmokers",
+		"dec": "debut album 'Memories... Do Not Open' is out now! ",
+		"img": "https://1.bp.blogspot.com/-_IRJmQdjhsg/VjQDEuTQaGI/AAAAAAAACsQ/tcb04-s2kBM/s1600/skrillex-knife-party.jpg",
 		"tracks": [{
-			"album": "Cover by Jeaniich",
-			"artist": "BAEK A YEON",
-			"id": "_1wmyj4e7p",
-			"img": "http://images.genius.com/67d28796d9902c50d3fe9ec01a76a279.604x604x1.jpg",
-			"song": "So So",
+			"album": "Memories Do Not Open",
+			"artist": "The Chainsmokers",
+			"id": "_8ecq1fkuo",
+			"img": "",
+			"song": "Paris",
 			"vote": 0,
-			"youtubeID": "Ar3EaMMnNZo"
+			"youtubeID": "RhU9MZ98jxo"
+		}]
+	},
+	"-Ki6bTy3Z0c5WY4UHyaD": {
+		"album": "We Don't Talk Anymore (feat. Selena Gomez)",
+		"artist": "Charlie Puth",
+		"dec": "Get \"We Don't Talk Anymore\"",
+		"img": "https://s-media-cache-ak0.pinimg.com/originals/05/50/c8/0550c8c52d6abdd393e1dcaaeb7562cc.jpg",
+		"tracks": [{
+			"album": "We Don't Talk Anymore (feat. Selena Gomez)",
+			"artist": "Charlie Puth",
+			"id": "_ofjy7hj6l",
+			"img": "http://armyofselenagomez.com/wp-content/uploads/2015/12/Charlie-Puth-Nine-Track-Mind-2015-1200x12001-300x300.png",
+			"song": "We Don't Talk Anymore",
+			"vote": 0,
+			"youtubeID": "3AtDnEC4zak"
+		}]
+	},
+	"-Ki9udLCouI4MAdqCcIt": {
+		"album": "New single 2017",
+		"artist": "Apink",
+		"dec": "Apink(에이핑크) _ Always",
+		"img": "https://pbs.twimg.com/media/C9lOSBFUIAA4DJN.jpg",
+		"tracks": [{
+			"album": "New single 2017",
+			"artist": "Apink",
+			"id": "_qopaswk06",
+			"img": "https://kpopgalaxy.com/wp-content/uploads/2017/04/apink-300x300.jpg",
+			"song": "Always (에이핑크)",
+			"vote": 0,
+			"youtubeID": "b0hz_eJmj7E"
+		}]
+	},
+	"-KiA3xPvmlFh0RNgeMlu": {
+		"album": "Cover by Jeaniich 2017",
+		"artist": "Jeaniich",
+		"dec": "Cover by Jeaniich",
+		"img": "https://lh3.googleusercontent.com/-8w-JmaT-Z-g/AAAAAAAAAAI/AAAAAAAAAQA/drT4hP9ng7U/s640/photo.jpg",
+		"tracks": [{
+				"album": "Cover by Jeaniich 2017",
+				"artist": "Jeaniich",
+				"id": "_y3kcedluw",
+				"img": "https://i1.sndcdn.com/artworks-000208227445-yhwdt5-t300x300.jpg",
+				"song": "U R",
+				"vote": 0,
+				"youtubeID": "QCfHZ-CzP5o"
+			},
+			{
+				"album": "Cover by Jeaniich 2017",
+				"artist": "Jeaniich",
+				"id": "_pbdfs4x4a",
+				"img": "https://i1.sndcdn.com/artworks-000208227445-yhwdt5-t300x300.jpg",
+				"song": "Fly",
+				"vote": 0,
+				"youtubeID": "VtyKF8YUr4E"
+			},
+			{
+				"album": "Cover by Jeaniich 2017",
+				"artist": "Jeaniich",
+				"id": "_6bo3exod2",
+				"img": "https://i1.sndcdn.com/artworks-000208227445-yhwdt5-t300x300.jpg",
+				"song": "Little Little",
+				"vote": 0,
+				"youtubeID": "P6ldyM1VJOo"
+			},
+			{
+				"album": "Cover by Jeaniich 2017",
+				"artist": "Jeaniich",
+				"id": "_x20myryci",
+				"img": "https://i1.sndcdn.com/artworks-000208227445-yhwdt5-t300x300.jpg",
+				"song": "11:11",
+				"vote": 0,
+				"youtubeID": "KtY7AG7T6W8"
+			},
+			{
+				"album": "Cover by Jeaniich 2017",
+				"artist": "Jeaniich",
+				"id": "_c7h8xdsoz",
+				"img": "https://i1.sndcdn.com/artworks-000208227445-yhwdt5-t300x300.jpg",
+				"song": "Fine",
+				"vote": 0,
+				"youtubeID": "athNFJ-rYqY"
+			},
+			{
+				"album": "Cover by Jeaniich 2017",
+				"artist": "Jeaniich",
+				"id": "_psc3kxgz7",
+				"img": "https://i1.sndcdn.com/artworks-000208227445-yhwdt5-t300x300.jpg",
+				"song": "Why",
+				"vote": 0,
+				"youtubeID": "4kXaOMniRhY"
+			}
+		]
+	},
+	"-KiAPl-IJffcS8-H-16l": {
+		"album": "Space [2nd Mini Album]",
+		"artist": "jeong Eun Ji",
+		"dec": "(Space) [2nd Mini Album]",
+		"img": "https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/c0.135.1080.1080/17495051_1508007949271295_3251935544728354816_n.jpg",
+		"tracks": [{
+				"album": "Space [2nd Mini Album]",
+				"artist": "jeong Eun Ji",
+				"id": "_wnnn19sdp",
+				"img": "http://pm1.narvii.com/6003/741097eac663c4b7c8cc6a7d3414b3c66a995aa6_hq.jpg",
+				"song": "The Spring 너란 봄  Feat. Hareem(하림))",
+				"vote": 0,
+				"youtubeID": "PWDISJZr7Yc"
+			},
+			{
+				"album": "Space [2nd Mini Album]",
+				"artist": "jeong Eun Ji",
+				"id": "_s3sputcpd",
+				"img": "http://pm1.narvii.com/6003/741097eac663c4b7c8cc6a7d3414b3c66a995aa6_hq.jpg",
+				"song": "First Farewell Feat. 곽진언",
+				"vote": 0,
+				"youtubeID": "AS_fHPwLDTY"
+			},
+			{
+				"album": "Space [2nd Mini Album]",
+				"artist": "jeong Eun Ji",
+				"id": "_6h2h3wfsb",
+				"img": "http://pm1.narvii.com/6003/741097eac663c4b7c8cc6a7d3414b3c66a995aa6_hq.jpg",
+				"song": "소녀의 소년",
+				"vote": 0,
+				"youtubeID": "x-nMjwLHTCU"
+			},
+			{
+				"album": "Space [2nd Mini Album]",
+				"artist": "jeong Eun Ji",
+				"id": "_bfpzfmitf",
+				"img": "http://pm1.narvii.com/6003/741097eac663c4b7c8cc6a7d3414b3c66a995aa6_hq.jpg",
+				"song": "서울의 달",
+				"vote": 0,
+				"youtubeID": "d7lxW0FZmi0"
+			},
+			{
+				"album": "Space [2nd Mini Album]",
+				"artist": "jeong Eun Ji",
+				"id": "_fgb6fvcn8",
+				"img": "http://pm1.narvii.com/6003/741097eac663c4b7c8cc6a7d3414b3c66a995aa6_hq.jpg",
+				"song": "The Spring(너란 봄) (Piano Ver.)",
+				"vote": 0,
+				"youtubeID": "8metiUp_r-A"
+			}
+		]
+	},
+	"-KiAUhaNKRn2CCPjdYNZ": {
+		"album": "2nd Mini Album ‘Holler’",
+		"artist": "Girls' Generation- TTS",
+		"dec": "Girls' Generation-TTS (소녀시대-태티서) - 아드레날린 (Adrenaline) [2nd Mini Album ‘Holler’]",
+		"img": "https://scontent.cdninstagram.com/hphotos-xpa1/t51.2885-15/e15/10684199_592351424208163_1306308838_n.jpg",
+		"tracks": [{
+				"album": "2nd Mini Album ‘Holler’",
+				"artist": "Girls' Generation- TTS",
+				"id": "_2allsf71q",
+				"img": "https://scontent.cdninstagram.com/hphotos-xpa1/t51.2885-15/e15/10684199_592351424208163_1306308838_n.jpg",
+				"song": "Holler",
+				"vote": 0,
+				"youtubeID": "mgPywNGOcus"
+			},
+			{
+				"album": "2nd Mini Album ‘Holler’",
+				"artist": "Girls' Generation- TTS",
+				"id": "_3dpygxmc5",
+				"img": "https://scontent.cdninstagram.com/hphotos-xpa1/t51.2885-15/e15/10684199_592351424208163_1306308838_n.jpg",
+				"song": "아드레날린 (Adrenaline) ",
+				"vote": 0,
+				"youtubeID": "0Z2Iqsh8TxI"
+			},
+			{
+				"album": "2nd Mini Album ‘Holler’",
+				"artist": "Girls' Generation- TTS",
+				"id": "_dmkva077h",
+				"img": "https://scontent.cdninstagram.com/hphotos-xpa1/t51.2885-15/e15/10684199_592351424208163_1306308838_n.jpg",
+				"song": "내가 네게(Whisper)",
+				"vote": 0,
+				"youtubeID": "0WlLFi5s07o"
+			},
+			{
+				"album": "2nd Mini Album ‘Holler’",
+				"artist": "Girls' Generation- TTS",
+				"id": "_bi9bizo4o",
+				"img": "https://scontent.cdninstagram.com/hphotos-xpa1/t51.2885-15/e15/10684199_592351424208163_1306308838_n.jpg",
+				"song": "Stay",
+				"vote": 0,
+				"youtubeID": "6taY2VSl4Y8"
+			},
+			{
+				"album": "2nd Mini Album ‘Holler’",
+				"artist": "Girls' Generation- TTS",
+				"id": "_0jyiu40j9",
+				"img": "https://scontent.cdninstagram.com/hphotos-xpa1/t51.2885-15/e15/10684199_592351424208163_1306308838_n.jpg",
+				"song": "Only U",
+				"vote": 0,
+				"youtubeID": "G4Hc-DHaPkY"
+			},
+			{
+				"album": "2nd Mini Album ‘Holler’",
+				"artist": "Girls' Generation- TTS",
+				"id": "_09o2b5yvx",
+				"img": "https://scontent.cdninstagram.com/hphotos-xpa1/t51.2885-15/e15/10684199_592351424208163_1306308838_n.jpg",
+				"song": "EYES",
+				"vote": 0,
+				"youtubeID": "q0Bm3BE-1xo"
+			}
+		]
+	},
+	"-KiAYV_GiSZz4THYy6Ns": {
+		"album": "WONDERLAND [Mini Album] ",
+		"artist": "Jessica",
+		"dec": "[Mini Album] ",
+		"img": "https://cache.gmo2.sistacafe.com/images/uploads/summary/image/13554/e50ef34cf934ff63bf52c55b08eaf900.jpg",
+		"tracks": [{
+				"album": "WONDERLAND [Mini Album] ",
+				"artist": "Jessica",
+				"id": "_uan3hovgf",
+				"img": "https://cache.gmo2.sistacafe.com/images/uploads/summary/image/13554/e50ef34cf934ff63bf52c55b08eaf900.jpg",
+				"song": "Wonderland",
+				"vote": 0,
+				"youtubeID": "DEBGxIBw-Js"
+			},
+			{
+				"album": "WONDERLAND [Mini Album] ",
+				"artist": "Jessica",
+				"id": "_jma1mf0c5",
+				"img": "https://cache.gmo2.sistacafe.com/images/uploads/summary/image/13554/e50ef34cf934ff63bf52c55b08eaf900.jpg",
+				"song": "Dancing On The Moon",
+				"vote": 0,
+				"youtubeID": "Z_OsmFmxRVA"
+			},
+			{
+				"album": "WONDERLAND [Mini Album] ",
+				"artist": "Jessica",
+				"id": "_y5aydhnd1",
+				"img": "https://cache.gmo2.sistacafe.com/images/uploads/summary/image/13554/e50ef34cf934ff63bf52c55b08eaf900.jpg",
+				"song": "Celebrate",
+				"vote": 0,
+				"youtubeID": "PLQEJ7Hk-3o"
+			},
+			{
+				"album": "WONDERLAND [Mini Album] ",
+				"artist": "Jessica",
+				"id": "_cy22hbz46",
+				"img": "https://cache.gmo2.sistacafe.com/images/uploads/summary/image/13554/e50ef34cf934ff63bf52c55b08eaf900.jpg",
+				"song": "World Of Dreams",
+				"vote": 0,
+				"youtubeID": "PLQEJ7Hk-3o"
+			},
+			{
+				"album": "WONDERLAND [Mini Album] ",
+				"artist": "Jessica",
+				"id": "_dt3jl9df5",
+				"img": "https://cache.gmo2.sistacafe.com/images/uploads/summary/image/13554/e50ef34cf934ff63bf52c55b08eaf900.jpg",
+				"song": "Beautiful",
+				"vote": 0,
+				"youtubeID": "OyVXxsbaw1M"
+			},
+			{
+				"album": "WONDERLAND [Mini Album] ",
+				"artist": "Jessica",
+				"id": "_imfevpr1g",
+				"img": "https://cache.gmo2.sistacafe.com/images/uploads/summary/image/13554/e50ef34cf934ff63bf52c55b08eaf900.jpg",
+				"song": "Tonight",
+				"vote": 0,
+				"youtubeID": "KnaMQTygNIU"
+			}
+		]
+	},
+	"-KiAadxeXOCDYQf3PQ-K": {
+		"album": "I The 1st Mini Album",
+		"artist": "TAEYEON",
+		"dec": "The 1st Mini Album",
+		"img": "http://2.bp.blogspot.com/-er-U0kBaWrs/VhW0z1_oCrI/AAAAAAAA4w4/Wh8gbt-WSUc/s1600/yoona%2Btaeyeon%2Bi.jpg",
+		"tracks": [{
+				"album": "I The 1st Mini Album",
+				"artist": "TAEYEON",
+				"id": "_pyfh7485k",
+				"img": "http://2.bp.blogspot.com/-er-U0kBaWrs/VhW0z1_oCrI/AAAAAAAA4w4/Wh8gbt-WSUc/s1600/yoona%2Btaeyeon%2Bi.jpg",
+				"song": "I (feat. Verbal Jint)",
+				"vote": 0,
+				"youtubeID": "tssAn7gn62s"
+			},
+			{
+				"album": "I The 1st Mini Album",
+				"artist": "TAEYEON",
+				"id": "_2yiw360tl",
+				"img": "http://2.bp.blogspot.com/-er-U0kBaWrs/VhW0z1_oCrI/AAAAAAAA4w4/Wh8gbt-WSUc/s1600/yoona%2Btaeyeon%2Bi.jpg",
+				"song": "U R",
+				"vote": 0,
+				"youtubeID": "ERZ4kSwHI5M"
+			},
+			{
+				"album": "I The 1st Mini Album",
+				"artist": "TAEYEON",
+				"id": "_nnb3qpxlb",
+				"img": "http://2.bp.blogspot.com/-er-U0kBaWrs/VhW0z1_oCrI/AAAAAAAA4w4/Wh8gbt-WSUc/s1600/yoona%2Btaeyeon%2Bi.jpg",
+				"song": "쌍둥이자리 (Gemini)",
+				"vote": 0,
+				"youtubeID": "utQnBezl8xk"
+			},
+			{
+				"album": "I The 1st Mini Album",
+				"artist": "TAEYEON",
+				"id": "_wqi8mhziz",
+				"img": "http://2.bp.blogspot.com/-er-U0kBaWrs/VhW0z1_oCrI/AAAAAAAA4w4/Wh8gbt-WSUc/s1600/yoona%2Btaeyeon%2Bi.jpg",
+				"song": "스트레스 (Stress)",
+				"vote": 0,
+				"youtubeID": "VNin8w3-NPE"
+			},
+			{
+				"album": "I The 1st Mini Album",
+				"artist": "TAEYEON",
+				"id": "_1kbuoh5ep",
+				"img": "http://2.bp.blogspot.com/-er-U0kBaWrs/VhW0z1_oCrI/AAAAAAAA4w4/Wh8gbt-WSUc/s1600/yoona%2Btaeyeon%2Bi.jpg",
+				"song": "Farewell (먼저 말해줘)",
+				"vote": 0,
+				"youtubeID": "VnKIrGJoils"
+			},
+			{
+				"album": "I The 1st Mini Album",
+				"artist": "TAEYEON",
+				"id": "_mvapnbu5g",
+				"img": "http://2.bp.blogspot.com/-er-U0kBaWrs/VhW0z1_oCrI/AAAAAAAA4w4/Wh8gbt-WSUc/s1600/yoona%2Btaeyeon%2Bi.jpg",
+				"song": "I Instrumental ver.",
+				"vote": 0,
+				"youtubeID": "ZdGtQpEQcxM"
+			}
+		]
+	},
+	"-KiAexuwO4yITxM84qcR": {
+		"album": "TWICEcoaster : LANE 1 [Full Album]",
+		"artist": "TWICE",
+		"dec": "TWICEcoaster : LANE 1 [Full Album]",
+		"img": "https://cache.gmo2.sistacafe.com/images/uploads/summary/image/9004/1461315077-sistacafe-twicd.jpg",
+		"tracks": [{
+				"album": "TWICEcoaster : LANE 1 [Full Album]",
+				"artist": "TWICE",
+				"id": "_ceq5p86qk",
+				"img": "https://cache.gmo2.sistacafe.com/images/uploads/summary/image/9004/1461315077-sistacafe-twicd.jpg",
+				"song": "TT",
+				"vote": 0,
+				"youtubeID": "JNqEXu9B7Zo"
+			},
+			{
+				"album": "TWICEcoaster : LANE 1 [Full Album]",
+				"artist": "TWICE",
+				"id": "_yc2vqloki",
+				"img": "https://cache.gmo2.sistacafe.com/images/uploads/summary/image/9004/1461315077-sistacafe-twicd.jpg",
+				"song": "1 to 10",
+				"vote": 0,
+				"youtubeID": "EYWD9IlZ4N8"
+			},
+			{
+				"album": "TWICEcoaster : LANE 1 [Full Album]",
+				"artist": "TWICE",
+				"id": "_bi4cgu6mr",
+				"img": "https://cache.gmo2.sistacafe.com/images/uploads/summary/image/9004/1461315077-sistacafe-twicd.jpg",
+				"song": "Ponytail",
+				"vote": 0,
+				"youtubeID": "GR6QvlCKazk"
+			},
+			{
+				"album": "TWICEcoaster : LANE 1 [Full Album]",
+				"artist": "TWICE",
+				"id": "_jgpwqaat3",
+				"img": "https://cache.gmo2.sistacafe.com/images/uploads/summary/image/9004/1461315077-sistacafe-twicd.jpg",
+				"song": "JELLY JELLY",
+				"vote": 0,
+				"youtubeID": "GR6QvlCKazk"
+			},
+			{
+				"album": "TWICEcoaster : LANE 1 [Full Album]",
+				"artist": "TWICE",
+				"id": "_r2n6cca0w",
+				"img": "https://cache.gmo2.sistacafe.com/images/uploads/summary/image/9004/1461315077-sistacafe-twicd.jpg",
+				"song": "JELLY JELLY",
+				"vote": 0,
+				"youtubeID": "dcZZRuhVnFs"
+			},
+			{
+				"album": "TWICEcoaster : LANE 1 [Full Album]",
+				"artist": "TWICE",
+				"id": "_3glbn95hf",
+				"img": "https://cache.gmo2.sistacafe.com/images/uploads/summary/image/9004/1461315077-sistacafe-twicd.jpg",
+				"song": "PIT-A-PAT",
+				"vote": 0,
+				"youtubeID": "gySq3p0qgug"
+			},
+			{
+				"album": "TWICEcoaster : LANE 1 [Full Album]",
+				"artist": "TWICE",
+				"id": "_5ptnn9qkf",
+				"img": "https://cache.gmo2.sistacafe.com/images/uploads/summary/image/9004/1461315077-sistacafe-twicd.jpg",
+				"song": "NEXT PAGE",
+				"vote": 0,
+				"youtubeID": "ypuS9-SKkzk"
+			},
+			{
+				"album": "TWICEcoaster : LANE 1 [Full Album]",
+				"artist": "TWICE",
+				"id": "_fkenl7xna",
+				"img": "https://cache.gmo2.sistacafe.com/images/uploads/summary/image/9004/1461315077-sistacafe-twicd.jpg",
+				"song": "ONE IN A MILLION",
+				"vote": 0,
+				"youtubeID": "EYU5DS_2xcM"
+			}
+		]
+	},
+	"-KiBOINxICHb-EtXasec": {
+		"album": "Single",
+		"artist": "Crush (크러쉬)",
+		"dec": "New Single",
+		"img": "https://pop1gasa.files.wordpress.com/2016/01/524784.jpg?w=640",
+		"tracks": [{
+			"album": "Single",
+			"artist": "Crush (크러쉬)",
+			"id": "_cuuf5y7mi",
+			"img": "https://pop1gasa.files.wordpress.com/2016/01/524784.jpg?w=640",
+			"song": "Don’t Forget (잊어버리지마) Feat. Taeyeon(태연)",
+			"vote": 0,
+			"youtubeID": "21rubJsaiKo"
 		}]
 	}
 }
