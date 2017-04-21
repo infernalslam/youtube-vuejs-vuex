@@ -9,7 +9,7 @@
     <div style="border-bottom: 3px solid #003;"></div>
     <div style="padding-left: 30px; padding-top: 20px;">
       <i class="fa fa-play" aria-hidden="true"></i> &nbsp &nbsp
-      <i class="fa fa-step-forward" aria-hidden="true"></i> &nbsp &nbsp
+      <i class="fa fa-step-forward" aria-hidden="true" @click="store.dispatch('nextSong')" style="cursor: pointer;"></i> &nbsp &nbsp
       <i class="fa fa-window-close" aria-hidden="true" @click="store.dispatch('closePlayer')"></i> &nbsp &nbsp
       <span> {{store.state.oncelist.artist}} {{store.state.oncelist.song}}  - {{store.state.oncelist.album}} </span>
       <span style="color: red;">{{store.state.youtubeID}}</span>
@@ -24,8 +24,7 @@ export default {
   name: 'player',
   data () {
     return {
-      store,
-      player: ''
+      store
     }
   },
   methods: {

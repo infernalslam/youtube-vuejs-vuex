@@ -100,14 +100,15 @@ const store = new Vuex.Store({
       }
     },
     nextSong (state) {
-      state.listPlayer.splice(Math.floor(Math.random() * state.listPlayer.length) + 1, 1)
-      state.oncelist.id = state.listPlayer[0].id
-      state.oncelist.artist = state.listPlayer[0].artist
-      state.oncelist.img = state.listPlayer[0].img
-      state.oncelist.song = state.listPlayer[0].song
-      state.oncelist.vote = state.listPlayer[0].vote
-      state.oncelist.youtubeID = state.listPlayer[0].youtubeID
-      state.oncelist.album = state.listPlayer[0].album
+      // state.listPlayer.splice(Math.floor(Math.random() * state.listPlayer.length) + 1, 1)
+      let index = Math.floor(Math.random() * state.listPlayer.length) + 1
+      state.oncelist.id = state.listPlayer[index].id
+      state.oncelist.artist = state.listPlayer[index].artist
+      state.oncelist.img = state.listPlayer[index].img
+      state.oncelist.song = state.listPlayer[index].song
+      state.oncelist.vote = state.listPlayer[index].vote
+      state.oncelist.youtubeID = state.listPlayer[index].youtubeID
+      state.oncelist.album = state.listPlayer[index].album
     }
   }
 })
