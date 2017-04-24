@@ -52,7 +52,8 @@ export default {
   width: 100%;
   position: fixed;
   left: 0px;
-  top: 910px;
+  /*top: 910px;*/
+  top: 90%;
   bottom: 0px;
   background: #eee;
 }

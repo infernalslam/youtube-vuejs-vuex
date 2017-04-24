@@ -22,7 +22,7 @@
                 <input class="input" type="text" placeholder="Album" v-model="data.dec">
               </p>
 
-              <label class="label">ลิ้งหน้าปกอัมบั้ม ขนาด 300 X 300</label>
+              <label class="label">ลิ้งหน้าปกอัมบั้ม ขนาด 640 X 640</label>
               <p class="control">
                 <input class="input" type="text" placeholder="https://xxx.jpg" v-model="img">
               </p>

@@ -1,45 +1,8 @@
 <template>
   <div>
-    <!-- <section class="hero">
-    <div class="hero-body">
-      <div class="container">
-        <div class="title-side">อัลบั้มมาเเรง</div>
-        <div style="border-bottom: 3px solid #003;"></div>
-        <br>
-
-        <div class="columns">
-
-          <div class="column" v-for="show in store.state.allAlbum">
-            <div class="panel">
-              <p class="is-marginless">
-                <img :src="show.img" width="300" height="300">
-              </p>
-              <div class="panel-block">
-                <div class="columns">
-                  <div class="column">
-                    <span style="text-align: center; color: #003; font-size: 24px;"> {{show.artist}} <br> {{show.album}} </span>
-                    <div class="panel-block-item">{{show.dec}}</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-
-        </div>
-
-      </div>
-    </div>
-  </section> -->
-
   <div id="main">
 						<article class="thumb" v-for="show in store.state.allAlbum">
-							<a class="image">
-                <!--  size 640x640 -->
-                <!-- <router-link class="nav-item is-tab" style="color: white;" to="/create">CreatePlaylist</router-link> -->
-                <router-link to="/insideAlbum" ><img :src="show.img" @click="store.dispatch('changeBg', show)"></router-link>
-                <!-- <img :src="show.img"> -->
-              </a>
+							<a class="image"><img :src="show.img"></a>
 							<h2>
                 {{show.artist}} <br>
                 {{show.album}} <br>
