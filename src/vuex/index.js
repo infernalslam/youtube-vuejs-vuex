@@ -13,7 +13,7 @@ const config = {
 }
 firebase.initializeApp(config)
 const db = firebase.database().ref('data')
-db.on('child_added', function (data) {})
+// db.on('child_added', function (data) {})
 
 const store = new Vuex.Store({
   state: {

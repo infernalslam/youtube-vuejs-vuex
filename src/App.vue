@@ -49,13 +49,22 @@ export default {
    font-weight: 600;
 }
 .player-title {
-  width: 100%;
+  /*width: 100%;
   position: fixed;
-  left: 0px;
+  left: 0px;*/
   /*top: 910px;*/
-  top: 90%;
+  /*top: 90%;
   bottom: 0px;
-  background: #eee;
+  background: #eee;*/
+  z-index: 99999;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  position: fixed;
+  background-color: #eee;
+  width: 100%;
+  height: 100px;
+  padding: 12px;
 }
 .player-title-side {
   color: #fff;
