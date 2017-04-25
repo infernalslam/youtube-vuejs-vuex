@@ -3,7 +3,9 @@
     <!-- <header-side1></header-side1> -->
     <header-sub></header-sub>
     <router-view></router-view>
+    <transition name="fade">
     <player v-show="store.state.toggle"></player>
+  </transition>
     <!-- <youtube :video-id="store.state.listPlayer[0].youtubeID" :player-vars="{autoplay: 1}" style="display: none"></youtube> -->
 
   </div>
@@ -77,5 +79,12 @@ export default {
   background-color: #d0014a;
   margin-right: 70%;
   font-weight: 600;
+}
+
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .5s
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active in <2.1.8 */ {
+  opacity: 0
 }
 </style>

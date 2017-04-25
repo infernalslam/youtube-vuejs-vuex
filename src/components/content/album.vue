@@ -1,6 +1,6 @@
 <template>
   <div>
-  <div id="main">
+      <div id="main">
 						<article class="thumb" v-for="show in store.state.allAlbum">
 							<a class="image"><img :src="show.img"></a>
 							<h2>
